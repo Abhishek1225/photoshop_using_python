@@ -1,10 +1,10 @@
- #Photoshop project with python as a  file is as easy as saving a file in PNG.
-#NumPy is one of the core libraries in Python programming and provides support for arrays.
-#An image is essentially a standard NumPy array containing pixels of data points.
-#Therefore, by using basic NumPy operations, such as slicing, 
-#masking, and fancy indexing, you can modify the pixel values of an image.
+''' Photoshop project with python as a  file is as easy as saving a file in PNG.
+NumPy is one of the core libraries in Python programming and provides support for arrays.
+An image is essentially a standard NumPy array containing pixels of data points.
+Therefore, by using basic NumPy operations, such as slicing, 
+masking, and fancy indexing, you can modify the pixel values of an image.
 
-
+'''
 
 
 
