@@ -1,0 +1,34 @@
+class Node:
+    def __init__(self, k):
+        self.key = k
+        self.next = None
+        self.prev = None
+
+
+class MyDeque:
+    def __init__(self, c):
+        self.front = None
+        self.rear = None
+    def insertRear(self, x):
+        temp = Node(x)
+        if self.rear == None:
+            self.front = temp
+        else:
+            self.rear.next = temp
+            temp.prev = self.rear
+        self.rear = temp
+        
+
+    def deletfront(self):
+        if self.front == None:
+            return None
+        else:
+            res = self.front.key
+            self.front = self.front.next
+            if self.front == None:
+                self.rear = None
+            else:
+                self.front.prev = None
+            return res
+
+    
